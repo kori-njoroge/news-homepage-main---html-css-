@@ -5,23 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>News Hope Page</title>
+    <script src="./index.js"></script>
+    <title>News Home Page</title>
 </head>
 <body>
     <main>
         <nav>
             <img src="./images/logo.svg" alt="page logo" >
-            <!-- <div>
+            <div class="nav-items-left">
                 <h3 class="nav--item">Home</h3>
                 <h3 class="nav--item">New</h3>
                 <h3 class="nav--item">Popular</h3>
                 <h3 class="nav--item">Trending</h3>
                 <h3 class="nav--item">Categories</h3>
-            </div> -->
+            </div>
+            <div class="menu">
+                <img onclick="showMenu()" class="humberger" src="./images/icon-menu.svg" alt="menu">
+            </div>
         </nav>
         <section class="newsPage">
             <div class="gridItem item1">
-                <img src="./images/image-web-3-desktop.jpg" alt="desktop web">
+                <img class="desktop" src="./images/image-web-3-desktop.jpg" alt="desktop web">
+                <img class="mobile" src="./images/image-web-3-mobile.jpg" alt="mobile image">
             </div>
             <div class="gridItem item2">
                 <h1>New</h1>
